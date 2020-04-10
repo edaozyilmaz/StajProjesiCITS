@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/bree_serif</item>
+        <item>@font/cabin_medium</item>
+        <item>@font/comfortaa</item>
+        <item>@font/exo</item>
+        <item>@font/josefin_sans</item>
+        <item>@font/muli</item>
+        <item>@font/nunito</item>
+        <item>@font/quicksand</item>
+        <item>@font/roboto_mono</item>
+        <item>@font/roboto_mono_text</item>
+        <item>@font/source_sans_pro_light</item>
+    </array>
+</resources>

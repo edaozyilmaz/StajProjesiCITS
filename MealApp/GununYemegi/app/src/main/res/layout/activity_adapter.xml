@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="24dp">
+
+
+    <android.support.v7.widget.CardView
+
+
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:cardBackgroundColor="@android:color/background_light"
+        app:cardElevation="3dp"
+        app:cardUseCompatPadding="true">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtDateView"
+                    android:layout_width="match_parent"
+                    android:layout_height="26dp"
+                    android:text="@string/txtDateVal"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp" />
+
+                <View
+                    android:id="@+id/view"
+                    android:layout_height="1dp"
+                    android:layout_width="match_parent"
+                    android:background="@color/vertical_divider_color"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="16dp"
+                    android:paddingEnd="12dp"
+                    android:paddingStart="12dp"
+                    android:paddingTop="16dp">
+
+                    <TextView
+                        android:id="@+id/txtSoupView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        tools:ignore="MissingPrefix"
+                        fontPath="fonts/Raleway-Medium.ttf"
+                        android:text="@string/txtSoupVal"
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/txtSoupCalView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:background="@android:color/white"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:paddingEnd="4dp"
+                        android:paddingStart="4dp"
+                        android:text="@string/txtSoupCalVal"
+                        android:textColor="#7a7474"
+                        android:textSize="13sp" />
+                </RelativeLayout>
+
+                <View
+                    android:id="@+id/view1"
+                    android:layout_height="1dp"
+                    android:layout_width="match_parent"
+                    android:background="@color/vertical_divider_color"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="8dp"
+                    android:paddingEnd="12dp"
+                    android:paddingStart="12dp"
+                    android:paddingTop="8dp">
+
+                    <TextView
+                        android:id="@+id/textMainCourseLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="MissingPrefix"
+                        fontPath="fonts/Raleway-Medium.ttf"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:text="Ana Yemek"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="127dp"
+                        android:layout_below="@+id/textMainCourseLabel"
+                        android:layout_centerInParent="true"
+                        android:orientation="horizontal"
+                        android:weightSum="100">
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="49"
+                            android:paddingBottom="24dp"
+                            android:paddingEnd="16dp"
+                            android:paddingStart="16dp"
+                            android:paddingTop="24dp">
+
+                            <TextView
+                                android:id="@+id/txtMainCourseView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true"
+                                tools:ignore="MissingPrefix"
+                                fontPath="fonts/Raleway-Medium.ttf"
+                                android:clickable="true"
+                                android:text="@string/txtMainCourseVal"
+                                android:textAlignment="center"
+                                android:textColor="@android:color/black"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/txtMainCourseCalView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/txtMainCourseView"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="8dp"
+                                android:background="@android:color/white"
+                                android:paddingEnd="4dp"
+                                android:paddingStart="4dp"
+                                android:text="@string/txtSoupCalVal"
+                                android:textColor="#7a7474"
+                                android:textSize="13sp" />
+
+
+                        </RelativeLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical"
+                            android:paddingBottom="8dp"
+                            android:paddingTop="8dp">
+
+                            <View
+                                android:id="@+id/view2"
+                                android:layout_width="1dp"
+                                android:layout_height="match_parent"
+                                android:background="@color/vertical_divider_color"></View>
+                        </LinearLayout>
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="49"
+                            android:paddingBottom="24dp"
+                            android:paddingEnd="16dp"
+                            android:paddingStart="16dp"
+                            android:paddingTop="24dp">
+
+                            <TextView
+                                android:id="@+id/txtAlternativeMealView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentTop="true"
+                                tools:ignore="MissingPrefix"
+                                fontPath="fonts/Raleway-Medium.ttf"
+                                android:layout_centerHorizontal="true"
+                                android:text="@string/txtAlternativeMealVal"
+                                android:textAlignment="center"
+                                android:textColor="@android:color/black"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/txtAlternativeMealCalView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/txtAlternativeMealView"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="8dp"
+                                android:background="@android:color/white"
+                                android:paddingEnd="4dp"
+                                android:paddingStart="4dp"
+                                android:text="@string/txtSoupCalVal"
+                                android:textColor="#7a7474"
+                                android:textSize="13sp" />
+
+                        </RelativeLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <View
+                    android:id="@+id/view3"
+                    android:layout_height="1dp"
+                    android:layout_width="match_parent"
+                    android:background="@color/vertical_divider_color" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="16dp"
+                    android:paddingEnd="12dp"
+                    android:paddingStart="12dp"
+                    android:paddingTop="16dp">
+
+                    <TextView
+                        android:id="@+id/txtSupplementalMealView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="MissingPrefix"
+                        fontPath="fonts/Raleway-Medium.ttf"
+                        android:clickable="true"
+                        android:text="@string/txtSupplementalMealVal"
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/txtSupplementalMealCalView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:background="@android:color/white"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:paddingEnd="4dp"
+                        android:paddingStart="4dp"
+                        android:text="@string/txtSupplementalCalVal"
+                        android:textColor="#7a7474"
+                        android:textSize="13sp" />
+                </RelativeLayout>
+
+                <View
+                    android:id="@+id/view4"
+                    android:layout_height="1dp"
+                    android:layout_width="match_parent"
+                    android:background="@color/vertical_divider_color" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="16dp"
+                    android:paddingEnd="12dp"
+                    android:paddingStart="12dp"
+                    android:paddingTop="16dp">
+
+                    <TextView
+                        android:id="@+id/txtDessertView"
+                        android:layout_width="wrap_content"
+                        tools:ignore="MissingPrefix"
+                        fontPath="fonts/Raleway-Medium.ttf"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:text="@string/txtDessertVal"
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/txtDessertCalView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:background="@android:color/white"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:paddingEnd="4dp"
+                        android:paddingStart="4dp"
+                        android:text="@string/txtDessertCalVal"
+                        android:textColor="#7a7474"
+                        android:textSize="13sp" />
+                </RelativeLayout>
+
+                <View
+                    android:id="@+id/view5"
+                    android:layout_height="1dp"
+                    android:layout_width="match_parent"
+                    android:background="@color/vertical_divider_color" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="16dp"
+                    android:paddingEnd="12dp"
+                    android:paddingStart="12dp"
+                    android:paddingTop="16dp">
+
+                    <TextView
+                        android:id="@+id/txtTotalView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        tools:ignore="MissingPrefix"
+                        fontPath="fonts/Raleway-Medium.ttf"
+                        android:text="@string/txtTotalVal"
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/txtTotalCalView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:background="@android:color/white"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:paddingEnd="4dp"
+                        android:paddingStart="4dp"
+                        android:text="@string/txtTotalCalVal"
+                        android:textColor="#7a7474"
+                        android:textSize="13sp" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </FrameLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
+

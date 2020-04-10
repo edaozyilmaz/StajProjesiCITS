@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Günün Yemeği</string>
+    <string name="txtSoupVal">"Çorba"</string>
+    <string name="txtSoupCalVal">"200cal"</string>
+    <string name="txtMainCourseVal">"Ana Yemek"</string>
+    <string name="txtMainCourseCalVal">"200cal"</string>
+    <string name="txtAlternativeMealVal">"Alternatif Yemek"</string>
+    <string name="txtAlternativeMealCalVal">"200cal"</string>
+    <string name="txtSupplementalMealVal">"Ek Yemek"</string>
+    <string name="txtSupplementalCalVal">"200cal"</string>
+    <string name="txtDessertVal">"Tatlı"</string>
+    <string name="txtDessertCalVal">"200cal"</string>
+    <string name="txtTotalVal">"Toplam Kalori"</string>
+    <string name="txtTotalCalVal">"200cal"</string>
+    <string name="title_activity_main_scrolling">Günün Menüsü</string>
+    <string name="txtWeeklyVal">"Haftalık Menü"</string>
+    <string name="txtDateVal">dd.MM.yyyy - dddd</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_1">"Day 1"</string>
+    <string name="title_2">"Day 2"</string>
+    <string name="title_3">"Day 3"</string>
+    <string name="title_4">"Day 4"</string>
+    <string name="text_1">"Yemek"</string>
+</resources>

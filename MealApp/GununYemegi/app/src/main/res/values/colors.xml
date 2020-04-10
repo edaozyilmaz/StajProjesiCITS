@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3ba87e</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#db3b3b</color>
+    <color name="btn_week">#f15a34</color>
+    <color name="colorTransparentBackgroundDark">#80212121</color>
+    <color name="colorTransparentLineGray">#80bebebe</color>
+    <color name="colorChipRed">#f24343</color>
+    <color name="colorChipOrange">#ff7539</color>
+    <color name="colorChipYellow">#ffd801</color>
+    <color name="colorChipGreen">#26b90c</color>
+    <color name="colorChipBlue">#0099ff</color>
+    <color name="colorChipPurple">#ac59ff</color>
+    <color name="firstColor">#66BB6A</color>
+    <color name="secondColor">#26A69A</color>
+    <color name="thirdColor">#5C6BC0</color>
+    <color name="forthColor">#ef5350</color>
+    <color name="fifthColor">#d32f2f</color>
+    <color name="btn_share">#32a59e</color>
+    <color name="share_button_bg">#42a5f5</color>
+    <color name="vertical_divider_color">#bdbdbd</color>
+    <color name="grey_tab">#aba5a5</color>
+    <color name="material_blue_grey_200">#cad8df</color>
+</resources>
